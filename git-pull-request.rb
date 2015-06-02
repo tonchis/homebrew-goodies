@@ -2,8 +2,8 @@ require "formula"
 
 class GitPullRequest < Formula
   homepage "https://github.com/tonchis/git-pull-request"
-  url "https://github.com/tonchis/git-pull-request/archive/v1.0.0.tar.gz"
-  sha1 "23e09f9c6f9b0362b7cb35eeffcfd4ba7a295357"
+  url "https://github.com/tonchis/git-pull-request/archive/v1.1.0.tar.gz"
+  sha1 "484b3ec4a2c6b9e90e6a5307c772aceb2eebabc6"
 
   def install
     bin.install "bin/git-pull-request" => "git-pull-request"
