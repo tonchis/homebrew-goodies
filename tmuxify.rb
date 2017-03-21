@@ -1,9 +1,9 @@
 require "formula"
 
 class Tmuxify < Formula
-  homepage "https://gitlab.com/tonchis/tmuxify"
-  url "https://gitlab.com/tonchis/tmuxify/repository/archive.tar.gz?ref=v1.2.1"
-  sha256 "12a9176e5320912923039e7619966d90633a6665dcfc23189906f7b0ef0aa4ab"
+  homepage "https://github.com/tonchis/tmuxify"
+  url "https://github.com/tonchis/tmuxify/archive/v1.2.1.tar.gz"
+  sha256 "d63470875ccfef72f67483c2b926c7906bf1c37b2ce60a016ad9d8f06f3a14a3"
 
   depends_on "tmux"
 
